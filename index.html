@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="jquery.dataTables.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>General Task 2</title>
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5" >
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary mb-4" id="showModel" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Add  
+        </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Enter Your Detail</h5>
+                  <button type="button" class="btn-close close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group mt-3">
+                      <input type="text" name="text" autocomplete="off" class="input" id="name" placeholder="Name">
+                    </div>
+                    <div class="input-group mt-4">
+                        <input type="number" name="text" autocomplete="off" class="input" id="age" placeholder="Age">
+                    </div>
+                    <div class="input-group mt-4">
+                        <input type="text" name="text" autocomplete="off" class="input" id="desg" placeholder="Designation">
+                    </div>
+                    <div class="warning"></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary close" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="addDetail">Add Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <table class="table table-borderless details">
+            <thead class="bg-dark text-white">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Designation</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+   <script src="jquery.dataTables.min.js"></script>
+</body>
+
+</html>

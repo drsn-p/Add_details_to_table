@@ -1,0 +1,28 @@
+.d-flex .btn {
+    width: 50%;
+    border-radius: 30px;
+}
+
+.details {
+    text-align: center !important;
+    padding: 20px;
+    border: 1px solid rgb(214, 180, 180);
+    border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 0 15px !important;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.input {
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: blue;
+    width: 100%;
+}
+ 
+ 
+ 
+ 
